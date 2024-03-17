@@ -1,0 +1,44 @@
+.mainContainer{
+    background-image:url("./Images/Signupbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   padding-bottom: 200px;
+}
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+form input{
+width: 200px;
+height:30px;
+font-size: larger;
+border-radius: 5px;
+}
+form label{
+font-size: 20px;
+}
+form div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:360px) {
+
+    form{
+        background-color: transparent;
+        color:white;
+    }
+    
+}
